@@ -1,0 +1,16 @@
+{
+  "name": "NanoDCC",
+  "keywords": "NMRA, DCC, dcc, decoder",
+  "description": "A small but comprehendable NMRA DCC decoder library.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brederle/NanoDCC.git"
+  },
+  "version": "0.8.4",
+  "exclude": [
+    "*.o",
+    "*.hex"
+  ],
+  "frameworks": "arduino",
+  "platforms":  [ "atmelavr" ]
+}

@@ -1,0 +1,59 @@
+#######################################
+# Syntax Coloring Map For Bounce2
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Dcc                     KEYWORD1
+DccMessage              KEYWORD1
+Accessory               KEYWORD1
+AccessoryMotor4         KEYWORD1
+SerialCommandProcessor  KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+# from Dcc
+startRecv	KEYWORD2
+debugCycles	KEYWORD2
+hasMessage	KEYWORD2
+popMessage	KEYWORD2
+# from DccMessage
+isIdle	           KEYWORD2
+isReset	           KEYWORD2
+isGA	           KEYWORD2
+isGABroadcast      KEYWORD2
+getGAddress        KEYWORD2
+getGAPort          KEYWORD2
+getGAValue         KEYWORD2
+isExtGA	           KEYWORD2
+isExtGABroadcast   KEYWORD2
+getExtGAddress     KEYWORD2
+getExtGAValue      KEYWORD2
+isSM	           KEYWORD2
+isWriteSM          KEYWORD2
+isWriteBitSM       KEYWORD2
+isVerifySM         KEYWORD2
+getSMAddress       KEYWORD2
+getSMValue         KEYWORD2
+serialPrint        KEYWORD2
+# from Accessory
+getAddress         KEYWORD2
+resetCV            KEYWORD2
+listCV             KEYWORD2
+getCV              KEYWORD2
+setCV              KEYWORD2
+# from SerialCommandProcessor
+registerCommands   KEYWORD2
+process            KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
